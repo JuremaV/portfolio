@@ -1,6 +1,6 @@
 # Portfolio — Jurema Vidal Francisco
 
-Personal portfolio site for CV and job applications.
+Personal portfolio website.
 
 ## Local preview
 

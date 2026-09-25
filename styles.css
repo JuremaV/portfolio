@@ -132,22 +132,23 @@ main {
 }
 
 .hero-brand {
-  margin: 0 0 0.75rem;
+  margin: 0 0 0.5rem;
   font-family: var(--font-display);
-  font-weight: 800;
-  font-size: clamp(2.6rem, 8vw, 4.4rem);
-  line-height: 1.02;
-  letter-spacing: -0.03em;
+  font-weight: 700;
+  font-size: clamp(1.65rem, 4.5vw, 2.35rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
   color: var(--ink);
 }
 
 .hero-title {
   margin: 0 0 1.25rem;
   font-family: var(--font-display);
-  font-weight: 600;
-  font-size: clamp(1.35rem, 3.5vw, 1.85rem);
+  font-weight: 700;
+  font-size: clamp(2rem, 6vw, 3.25rem);
   color: var(--tide);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
 }
 
 .hero-lead {
