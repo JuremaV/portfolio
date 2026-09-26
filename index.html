@@ -17,28 +17,29 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Soft background layer for atmosphere (non-interactive) -->
+    <!-- Decorative background only; content remains plain selectable text for readability -->
     <div class="atmosphere" aria-hidden="true"></div>
 
     <header class="site-header">
       <a class="logo" href="#top">JV</a>
       <nav class="nav" aria-label="Primary">
-        <a href="#about">About</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
+        <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main id="top">
+      <!-- Hero: who you are in a few seconds -->
       <section class="hero">
         <p class="hero-brand">Jurema Vidal Francisco</p>
         <h1 class="hero-title">Software Developer</h1>
         <p class="hero-lead">
           Cape Town–based developer with a Bachelor in Computer Engineering
-          (CPUT) and hands-on experience building Flutter apps, Django APIs, and
-          React frontends. Candidate Engineering Technologist (ECSA).
+          (CPUT). I build Flutter apps, Django APIs, and React frontends, and I
+          use AI tools thoughtfully to ship clearer code and faster iteration.
         </p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="#projects">View work</a>
@@ -46,32 +47,12 @@
         </div>
       </section>
 
-      <section id="about" class="section">
-        <h2>About</h2>
-        <p class="section-lead">
-          Dedicated software developer with a strong interest in software
-          development, AI, and cybersecurity. I focus on delivering secure,
-          practical solutions and growing as a proactive team member in
-          collaborative environments.
-        </p>
-        <ul class="about-meta">
-          <li>
-            <strong>Education:</strong> Bachelor in Computer Engineering —
-            Cape Peninsula University of Technology (Feb 2021 – Dec 2024)
-          </li>
-          <li>
-            <strong>Registration:</strong> Candidate Engineering Technologist,
-            ECSA (2025407039)
-          </li>
-          <li><strong>Languages:</strong> English (fluent), Portuguese (native)</li>
-          <li><strong>Location:</strong> Cape Town, South Africa</li>
-        </ul>
-      </section>
-
+      <!-- Experience first: hiring managers weight relevant work over education -->
       <section id="experience" class="section">
         <h2>Experience</h2>
         <p class="section-lead">
-          Recent roles across product engineering and full-stack delivery.
+          Product engineering across mobile, web, and APIs — with live apps and
+          team delivery workflows.
         </p>
 
         <article class="job">
@@ -82,19 +63,33 @@
           </div>
           <ul class="job-points">
             <li>
-              Built and maintained Django APIs supporting web and mobile
-              clients.
+              Shipped Flutter UI features for production mobile apps, including
+              Unitrack on
+              <a
+                href="https://play.google.com/store/apps/details?id=com.oceansofty.unitrack&hl=en_ZA"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Google Play</a
+              >
+              and the
+              <a
+                href="https://apps.apple.com/za/app/unitrack-oceansofty/id6760410703"
+                target="_blank"
+                rel="noopener noreferrer"
+                >App Store</a
+              >.
             </li>
             <li>
-              Developed responsive UI features in Flutter for production apps.
+              Built and maintained Django APIs used by web and mobile clients
+              across multiple company products.
             </li>
             <li>
-              Used Azure DevOps for branching, merges, and CI/CD; participated
-              in code reviews and agile sprints.
+              Worked in Azure DevOps with feature branches, pull requests, code
+              reviews, and CI/CD alongside agile sprints.
             </li>
             <li>
-              Contributed across live products including Unitrack, Fidel80,
-              Sevis, Brunch Avenue, and OpenToMeetUp.
+              Contributed to live products: Unitrack, Fidel80, Sevis, Brunch
+              Avenue, and OpenToMeetUp.
             </li>
           </ul>
         </article>
@@ -134,16 +129,12 @@
           </div>
           <ul class="job-points">
             <li>
-              Built frontend modules with HTML, CSS, JavaScript, Bootstrap, and
-              React.
+              Delivered responsive UI with HTML, CSS, JavaScript, Bootstrap, and
+              React for project milestones.
             </li>
             <li>
               Implemented RESTful APIs and server-side logic with Python and
-              Django.
-            </li>
-            <li>
-              Delivered milestones in an agile team with responsive UI
-              components.
+              Django in an agile team.
             </li>
           </ul>
         </article>
@@ -156,12 +147,11 @@
           </div>
           <ul class="job-points">
             <li>
-              Assisted in developing and maintaining web and software
-              applications for clients.
+              Helped build and maintain client web and software applications
+              with a focus on reliable delivery.
             </li>
             <li>
-              Collaborated on solution design and improved performance through
-              debugging and optimisation.
+              Debugged and optimised code to improve performance and stability.
             </li>
           </ul>
         </article>
@@ -170,16 +160,25 @@
       <section id="projects" class="section">
         <h2>Projects</h2>
         <p class="section-lead">
-          Personal work in active development.
+          Selected work with source links you can inspect.
         </p>
 
         <article class="project">
           <h3>stAIfit</h3>
           <p>
-            AI-assisted fitness application with separate backend, mobile, and
-            web repositories. Continuing and improving an earlier academic
-            concept using industry patterns from Flutter and API-driven
-            architectures.
+            <strong>Problem:</strong> personal fitness planning is fragmented
+            across tools and advice.
+          </p>
+          <p>
+            <strong>What I’m building:</strong> an AI-assisted fitness app with
+            separate backend, mobile, and web repositories — rebuilding an
+            earlier academic concept with clearer structure and modern API
+            patterns.
+          </p>
+          <p>
+            <strong>Stack:</strong> Node/Express backend today; mobile and web
+            clients; moving toward Flutter + stronger API design based on what I
+            used in industry.
           </p>
           <div class="project-links">
             <a
@@ -202,10 +201,57 @@
             >
           </div>
         </article>
+
+        <article class="project">
+          <h3>This portfolio</h3>
+          <p>
+            <strong>What it shows:</strong> a static site with HTML, CSS, and
+            vanilla JavaScript, hosted on GitHub Pages — simple, fast, and easy
+            to update.
+          </p>
+          <p>
+            <strong>How I use AI:</strong> I use AI to draft and refine copy and
+            layout ideas, then edit everything myself so the wording stays
+            accurate and interview-ready.
+          </p>
+          <div class="project-links">
+            <a
+              href="https://github.com/JuremaV/portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Source code</a
+            >
+          </div>
+        </article>
+      </section>
+
+      <section id="about" class="section">
+        <h2>About</h2>
+        <p class="section-lead">
+          I care about secure, practical software and clear collaboration. I’m
+          registered with ECSA and continuously learning across software
+          development, AI tooling, and cybersecurity.
+        </p>
+        <ul class="about-meta">
+          <li>
+            <strong>Education:</strong> Bachelor in Computer Engineering —
+            Cape Peninsula University of Technology (Feb 2021 – Dec 2024)
+          </li>
+          <li>
+            <strong>Registration:</strong> Candidate Engineering Technologist,
+            ECSA (2025407039)
+          </li>
+          <li><strong>Languages:</strong> English (fluent), Portuguese (native)</li>
+          <li><strong>Location:</strong> Cape Town, South Africa</li>
+        </ul>
       </section>
 
       <section id="skills" class="section">
         <h2>Skills</h2>
+        <p class="section-lead">
+          Tools I use in real projects — shown through work above, not only
+          listed here.
+        </p>
         <ul class="skills">
           <li>Python</li>
           <li>JavaScript</li>
@@ -219,14 +265,13 @@
           <li>Postman</li>
           <li>REST APIs</li>
           <li>GraphQL</li>
+          <li>AI-assisted development</li>
         </ul>
       </section>
 
       <section id="contact" class="section contact">
         <h2>Contact</h2>
-        <p class="section-lead">
-          Feel free to reach out.
-        </p>
+        <p class="section-lead">Feel free to reach out.</p>
         <ul class="contact-list">
           <li>
             <a href="mailto:juremavidal.jv62@gmail.com"
