@@ -77,12 +77,23 @@ a:hover {
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
   font-family: var(--font-display);
   font-weight: 800;
   font-size: 1.15rem;
   letter-spacing: 0.04em;
   color: var(--ink);
   text-decoration: none;
+}
+
+.logo-photo {
+  width: 2.35rem;
+  height: 2.35rem;
+  object-fit: cover;
+  object-position: 55% 20%;
+  border-radius: 50%;
 }
 
 .nav {
@@ -249,6 +260,34 @@ main {
   margin: 0.35rem 0 0;
   font-size: 0.92rem;
   color: var(--ink-soft);
+}
+
+.about-layout {
+  display: grid;
+  gap: 1.75rem;
+  align-items: start;
+}
+
+@media (min-width: 720px) {
+  .about-layout {
+    grid-template-columns: minmax(0, 17rem) minmax(0, 1fr);
+    gap: 2.5rem;
+  }
+}
+
+.about-photo {
+  display: block;
+  width: 100%;
+  max-width: 17rem;
+  height: auto;
+  aspect-ratio: 6 / 5;
+  object-fit: cover;
+  object-position: center 25%;
+  border-radius: 0.85rem;
+}
+
+.about-copy .section-lead {
+  margin-bottom: 1.35rem;
 }
 
 .about-meta {
